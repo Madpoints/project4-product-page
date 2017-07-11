@@ -9,7 +9,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--<script type="text/javascript" src="app.js"></script>-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>gameHabit Product Page</title>
   </head>
   <body>
@@ -32,60 +32,89 @@
             <li><a href="#about">About</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header"><a href="">Login</a></li>
-                <li class="dropdown-header"><a href="">Sign up</a></li>
-              </ul>
-            </li>
+            <li><a href="../project3/index.html">Signup</a></li>
+            <!--drop down menu for navbar-->
+            
+            <!--<li class="dropdown">-->
+            <!--  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>-->
+            <!--  <ul class="dropdown-menu">-->
+            <!--    <li class="dropdown-header"><a href=""></a></li>-->
+            <!--  </ul>-->
+            <!--</li>-->
+            
           </ul>
         </div>
 
       </div>
     </div>
     </header>
-    <br><br><br>
+    <br><br>
     <!-- end of NavBar -->
 
 <article class="container" id="content">
 
-  
-    <section id="about">
-      <h2>What is gameHabit?</h2>
-      <p>A new way to keep track of games you're playing, you want to play, and games that have not been released</p>
-    </section>
-
-    <section id="features">
-      <h2>Features</h2>
-      <ul>
-        <label>Keep track of your games</label>
-          <li><p>All the latest information about games you're interested in in one place</p></li>
-        <label>Gaming on a budget</label>
-          <li><p>Latest prices, discounts, and trade-in values for all your games</p></li>
-        <label>Now where did I leave off?</label>
-          <li><p>Keep track of the games your playing, were you left off, what you want to acomplish etc.</p></li>
-        <label>Community</label>
-          <li><p>Connect with other gamers, share your tips </p></li>
-      </ul>
-    </section>
+  <div class="row">
+    <div class="col-xs-12" align="center">
+      <section id="about">
+        <h2>What is gameHabit?</h2>
+        <p>A new way to keep track of games you're playing, you want to play, and games that have not been released</p>
+        <img src="https://img.gawkerassets.com/img/17mul6jd3pfhdjpg/ku-xlarge.jpg" alt="Gaming Controller Wallpaper" />
+        <caption><p>Our mobile app will let you manage your gaming habit</p></caption>
+      </section>
+    </div>
     
-    <section id="Sign up">
-      <h2>Sign up</h2>
-      <label>Enter your email to sign up</label>
-      <form>
-        <input type="email">
-        <button type="submit">Submit</button>
-      </form>
-      <p>Or click login at the top of the page if already registered</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-    </section>
+    <div class="col-xs-12 col-xs-offset-3">
+      <section id="features">
+        <h2>Features</h2>
+        <ul>
+          <label><h3>Keep track of upcoming games</h3></label>
+            <li><p>Create a custom playlist of new/upcoming games</p></li>
+            <li><p>gamehabit will track all games on your playlist</p></li>
+            <li><p>Get the most up-to-date information</p></li>
+            <li><p>Reviews, previews, and first-impressions all in one source</p></li>
+            <li><p>Release schedules and patch notes</p></li>
+            <li><p>Follow your favorite developers</p></li>
+          <label><h3>Gaming on a budget</h3></label>
+            <li><p>Latest prices and trade-in values for all your games</p></li>
+            <li><p>Automatic updates on sales for games on your playlist</p></li>
+            <li><p>Check availability in your area</p></li>
+          <label><h3>Now where did I leave off?</h3></label>
+            <li><p>Keep track of the games your currently playing</p></li>
+            <li><p>Custom notes and quest trackers</p></li>
+            <li><p>Create your own journal</p></li>
+          <label><h3>Community</h3></label>
+            <li><p>Connect with other gamers</p></li>
+            <li><p>Share your tips</p></li>
+            <li><p>Ask for advice</p></li>
+            <li><p>Buy/Sell/Trade your games</p></li>
+        </ul>
+      </section>
+    </div>
+    
+    <div class="col-xs-12 col-xs-offset-3">
+      <section id="email-form">
+        <h2>Latest News</h2>
+        <label>Enter your email to receive latest gameHabit news</label>
+        <form>
+          <input type="email" type="get" placeholder=" Enter your email" required="">
+          <button class="btn" type="submit" formaction="https://www.freecodecamp.com/email-submit">Submit</button>
+        </form>
+      </section>
+    </div>
+    
+    <div class="col-xs-12 col-xs-offset-3">
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: (555)-555-5555</p>
+        <p>Email: jf8846@some-mail.com</p>
+        <p>Address: 123 Fake St Bristol R.I.</p>
+      </section>
+    </div>
+    
+  </div>
 </article>
-</body>
-<footer>
-  <p>gameHabit 2017</p>
+<footer align="center">
+  gameHabit &copy;2017
 </footer>
+</body>
 </html>

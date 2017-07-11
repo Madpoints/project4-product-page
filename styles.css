@@ -1,0 +1,42 @@
+.navbar.navbar-default {
+    border: 0;
+    background-color: #C21B1F; 
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #D0CED0;
+}
+
+.navbar-default .navbar-brand  {
+    color: #D0CED0;
+}
+
+
+#content {
+    background-color: #C21B1F; 
+    color: #D0CED0;
+    margin-top: 0;
+}
+
+body {
+    background-color: #414143;
+}
+
+a a:hover a:click a:visited{
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
+}
+
+section {
+    padding-bottom: 5em;   
+}
+
+input {
+    height: 2em;
+}
+
+button {
+    background-color: #414143;
+}
