@@ -8,12 +8,12 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script type="text/javascript" src="app.js"></script>
+    <!--<script type="text/javascript" src="app.js"></script>-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>gameHabit Product Page</title>
   </head>
   <body>
-    
+    <header id="header">
     <div class="navbar navbar-default navbar-fixed-top" role="navigator">
       <div class="container">
 
@@ -44,28 +44,48 @@
 
       </div>
     </div>
+    </header>
+    <br><br><br>
     <!-- end of NavBar -->
 
-<div class="container" id="content">
+<article class="container" id="content">
 
-  <div class="jumbotron">
+  
     <section id="about">
-      <p>What is gameHabit?<p>
-      <a href="http://placeholder.com"><img src="http://via.placeholder.com/800x400"></a>
+      <h2>What is gameHabit?</h2>
+      <p>A new way to keep track of games you're playing, you want to play, and games that have not been released</p>
     </section>
 
     <section id="features">
-      <p>Features</p>
+      <h2>Features</h2>
       <ul>
-        <li></li>
+        <label>Keep track of your games</label>
+          <li><p>All the latest information about games you're interested in in one place</p></li>
+        <label>Gaming on a budget</label>
+          <li><p>Latest prices, discounts, and trade-in values for all your games</p></li>
+        <label>Now where did I leave off?</label>
+          <li><p>Keep track of the games your playing, were you left off, what you want to acomplish etc.</p></li>
+        <label>Community</label>
+          <li><p>Connect with other gamers, share your tips </p></li>
       </ul>
+    </section>
+    
+    <section id="Sign up">
+      <h2>Sign up</h2>
+      <label>Enter your email to sign up</label>
+      <form>
+        <input type="email">
+        <button type="submit">Submit</button>
+      </form>
+      <p>Or click login at the top of the page if already registered</p>
     </section>
 
     <section id="contact">
-      <p>Contact</p>
+      <h2>Contact</h2>
     </section>
-  </div>
-</div>
+</article>
 </body>
-<footer>gameHabit 2017</footer>
+<footer>
+  <p>gameHabit 2017</p>
+</footer>
 </html>
