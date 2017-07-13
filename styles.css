@@ -29,6 +29,10 @@ a a:hover a:click a:visited{
   color:inherit;
 }
 
+footer p {
+  color: #D0CED0;
+}
+
 section {
     padding-bottom: 5em;   
 }
